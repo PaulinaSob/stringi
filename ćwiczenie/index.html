@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cwiczenie string</title>
+</head>
+<body>
+<script>
+    const tekst = prompt ("Podaj tekst do zmiany");
+    alert("Tekst to: "+ tekst);
+    const dozamiany = prompt("Które słowo chcesz zamienić?");
+    const zmiana = prompt ("Czym chcesz je zastąpić?");
+
+    document.write("Podstawowy tekst <br>");
+    document.write(tekst);
+    document.write("<br>");
+    document.write("Tekst po zamianie <br>");
+    document.write(tekst.replace(dozamiany,zmiana));
+    
+
+</script>
+</body>
+</html>
